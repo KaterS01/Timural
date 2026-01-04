@@ -1,0 +1,93 @@
+body{
+    background-color: lightgray;
+}
+
+h1{
+    margin: 30px auto;
+    margin-top: 40px;
+    padding: 15px;
+    font-size: 55px;
+    font-weight: 400;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    text-decoration: underline;
+
+}
+
+.btn{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #0077ff;
+    color: white;
+    border-radius: 8px;
+    font-size: 18px;
+    font-family: Arial, sans-serif;
+    transition: 0.3s;
+}
+
+.btn:hover{
+    background-color: lightblue;
+}
+
+.nav{
+    text-align: center;
+    margin-top: 20px;
+    width: 100%;
+}
+
+nav a {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 0 10px;
+    background-color: #0077ff;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+nav a:hover{
+    background-color: lightblue;
+}
+
+
+
+.cards{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    margin: 50px auto;
+    max-width: 1000px;
+}
+
+.card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 280px;
+    height: 160px;
+    background-color: #0077ff;
+    color: white;
+    text-decoration: none;
+    border-radius: 15px;
+    font-size: 22px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    transition: 0.3s;
+    text-align: center;
+}
+
+.card:hover{
+    background-color: lightblue;
+    transform: translateY(-5px);
+}
+
+
+
+.udaje{
+    text-align: center;
+    padding: 10px;
+    margin: 15px auto;
+
+}
